@@ -1,0 +1,30 @@
+{
+  "name": "sliceui",
+  "version": "1.0.0",
+  "description": "High-precision, context-efficient Figma XML (.figml) UI slicing skill and CLI engine for Claude Code",
+  "bin": {
+    "sliceui": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "doctor": "node ./bin/cli.js doctor"
+  },
+  "dependencies": {},
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "figma",
+    "figml",
+    "ui",
+    "slicing"
+  ],
+  "license": "MIT"
+}
